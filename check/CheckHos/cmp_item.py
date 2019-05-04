@@ -1,12 +1,12 @@
 from .vtcheck import Disease
-from .vtcheck import DiseaseList
+from .vtcheck import  DiseaseList
 
 
 def dcode_to_dname(code):
     dict = {'110000':'真性红细胞增多症',
             '120000':'肺原性心脏病',
             '130000':'贫血',
-            '131100': '溶血性贫血',
+            '131100': '溶血性贫血症状失眠多梦',
             '131111':'获得性溶血性贫血',
             '131112':'全身性溶血性贫血',
             '131200':'出血性贫血',

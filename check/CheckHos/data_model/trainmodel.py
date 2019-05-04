@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-from sklearn import cross_validation
+from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import SMOTE
 # from xgboost.sklearn import XGBClassifier
 # import xgboost as xgb
-from sklearn import cross_validation, metrics
+from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import IsolationForest

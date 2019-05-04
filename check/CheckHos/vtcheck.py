@@ -93,10 +93,13 @@ class DiseaseList():
         if vote == False:
             for i in self.diseases:
                 print(i.get_code())
+                print(i.get_code())
+                print(self)
         else:
             for i in self.diseases:
                 print('{0} vote is {1}'.format(i.get_code(),i.vote))
-
+                print('{0} vote is {1}'.format(i.get_code(),i.vote))
+                print(self)
 
 if __name__ == '__main__':
     d = Disease('111213')
