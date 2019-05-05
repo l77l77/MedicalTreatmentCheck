@@ -21,5 +21,5 @@ def http_post():
     # return req.text, req.status_code, req.content  # 获取服务器返回的页面信息
 
 
-text,status = http_post()
+text,status, = http_post()
 print(text)
