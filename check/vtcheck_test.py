@@ -11,7 +11,6 @@ def http_post():
 
     try:
         req = requests.post(url2, json_str_data, headers=headers)
-
     except requests.HTTPError as e:
         req = requests.post(url, json_str_data, headers=headers)
 
